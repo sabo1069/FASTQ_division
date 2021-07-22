@@ -7,7 +7,7 @@ FASTQ_directory=/lustre7/home/lustre3/takagi-hiroki/fastq/FASTQ_row_data
 thred_num=4
 extension_name=fq.gz
 
-
+##
 FASTQ_directory=`echo ${FASTQ_directory}|sed -e "s/\/\$//"`
 FASTQ_name=`ls -F ${FASTQ_directory}|grep /|sed -e "s/\///g"`
 
